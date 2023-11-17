@@ -1,11 +1,13 @@
 ﻿namespace AlgorithmCodeKata
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
-        }
+            Q_001_Substract solution = new();
+            int answer = solution.solution(2, 3);
 
+            Console.WriteLine(answer);
+        }
     }
 }

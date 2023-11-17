@@ -4,8 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Q_002_Multiplication solution = new();
-            int answer = solution.solution(3, 4);
+            Q_003_Division solution = new();
+            int answer = solution.solution(10, 5);
 
             Console.WriteLine(answer);
         }

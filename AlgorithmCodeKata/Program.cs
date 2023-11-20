@@ -1,4 +1,6 @@
-﻿namespace AlgorithmCodeKata
+﻿using static Q_006_Sum;
+
+namespace AlgorithmCodeKata
 {
     public class Program
     {

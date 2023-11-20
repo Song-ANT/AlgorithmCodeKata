@@ -27,15 +27,14 @@
     //angle이 180이므로 평각입니다.따라서 4를 return합니다.
 
 
-    public class Solution
+    
+    public int solution(int angle)
     {
-        public int solution(int angle)
-        {
 
-            if (angle > 0 && angle < 90) return 1;
-            else if (angle == 90) return 2;
-            else if (angle > 90 && angle < 180) return 3;
-            else return 4;
-        }
+        if (angle > 0 && angle < 90) return 1;
+        else if (angle == 90) return 2;
+        else if (angle > 90 && angle < 180) return 3;
+        else return 4;
     }
+    
 }

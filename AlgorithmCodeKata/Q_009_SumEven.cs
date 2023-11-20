@@ -19,17 +19,16 @@
     //n이 4이므로 2 + 4 = 6을 return 합니다.
 
 
-    public class Solution
+    
+    public int solution(int n)
     {
-        public int solution(int n)
+        int sum = 0;
+        for (int i = 1; i <= n; i++)
         {
-            int sum = 0;
-            for (int i = 1; i <= n; i++)
-            {
-                if (i % 2 == 0) sum += i;
-            }
-
-            return sum;
+            if (i % 2 == 0) sum += i;
         }
+
+        return sum;
     }
+    
 }

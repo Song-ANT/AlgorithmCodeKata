@@ -23,13 +23,12 @@
     //num1이 1, num2가 16이므로 1 / 16 = 0.0625에 1,000을 곱하면 62.5가 되며, 정수 부분은 62입니다.
 
 
-    public class Solution
+   
+    public int solution(int num1, int num2)
     {
-        public int solution(int num1, int num2)
-        {
-            int answer = (int)((num1 / (float)num2) * 1000);
+        int answer = (int)((num1 / (float)num2) * 1000);
 
-            return answer;
-        }
+        return answer;
     }
+   
 }

@@ -1,4 +1,6 @@
-﻿namespace AlgorithmCodeKata
+﻿using System;
+
+namespace AlgorithmCodeKata
 {
     public class Program
     {

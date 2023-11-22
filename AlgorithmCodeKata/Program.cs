@@ -6,8 +6,8 @@ namespace AlgorithmCodeKata
     {
         static void Main(string[] args)
         {
-            Q_010_Average res = new();
-            var answer = res.solution(new int[] { 1, 2, 3 });
+            Q_017_ReverseNum res = new();
+            var answer = res.solution(54321);
 
             Console.WriteLine(answer);
         }

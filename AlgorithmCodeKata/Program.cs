@@ -8,10 +8,14 @@ namespace AlgorithmCodeKata
     {
         static void Main(string[] args)
         {
-            Q_020_Orderby res = new();
-            var answer = res.solution(118372);
+            Q_029_DeleteMin res = new();
+            var answer = res.solution(new int[] {10});
 
-            Console.WriteLine(answer);
+            //Console.WriteLine(answer);
+            foreach ( var i in answer )
+            {
+                Console.WriteLine(i);
+            }
         }
     }
 }

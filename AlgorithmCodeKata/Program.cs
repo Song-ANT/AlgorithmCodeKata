@@ -8,14 +8,14 @@ namespace AlgorithmCodeKata
     {
         static void Main(string[] args)
         {
-            Q_029_DeleteMin res = new();
-            var answer = res.solution(new int[] {10});
+            Q_033_DivisorSum res = new();
+            var answer = res.solution(13, 17);
 
-            //Console.WriteLine(answer);
-            foreach ( var i in answer )
-            {
-                Console.WriteLine(i);
-            }
+            Console.WriteLine(answer);
+            //foreach ( var i in answer )
+            //{
+            //    Console.WriteLine(i);
+            //}
         }
     }
 }

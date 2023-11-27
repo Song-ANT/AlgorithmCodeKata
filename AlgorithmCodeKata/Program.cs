@@ -8,8 +8,8 @@ namespace AlgorithmCodeKata
     {
         static void Main(string[] args)
         {
-            Q_033_DivisorSum res = new();
-            var answer = res.solution(13, 17);
+            Q_034_Descending res = new();
+            var answer = res.solution("Zbcdefg");
 
             Console.WriteLine(answer);
             //foreach ( var i in answer )

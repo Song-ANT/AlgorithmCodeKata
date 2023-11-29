@@ -10,8 +10,8 @@ namespace AlgorithmCodeKata
     {
         static void Main(string[] args)
         {
-            Q_040_ThreeWaySystem res = new();
-            var answer = res.solution(45);
+            Q_041_StrangeCharacters res = new();
+            var answer = res.solution("try hello world");
 
             Console.WriteLine(answer);
             //foreach ( var i in answer )

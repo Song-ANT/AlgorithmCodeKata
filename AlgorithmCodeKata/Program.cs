@@ -3,6 +3,8 @@ using System.Diagnostics.Metrics;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
 using System.Xml.Linq;
+using System.Drawing;
+using System.Reflection;
 
 namespace AlgorithmCodeKata
 {

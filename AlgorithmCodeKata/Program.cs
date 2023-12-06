@@ -12,8 +12,8 @@ namespace AlgorithmCodeKata
     {
         static void Main(string[] args)
         {
-            Q_041_StrangeCharacters res = new();
-            var answer = res.solution("try hello world");
+            Q_045_CaesarCode res = new();
+            var answer = res.solution("z",1);
 
             Console.WriteLine(answer);
             //foreach ( var i in answer )

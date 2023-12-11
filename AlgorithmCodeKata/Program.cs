@@ -5,6 +5,7 @@ using System.Runtime.InteropServices;
 using System.Xml.Linq;
 using System.Drawing;
 using System.Reflection;
+using System.Threading;
 
 namespace AlgorithmCodeKata
 {
@@ -13,7 +14,7 @@ namespace AlgorithmCodeKata
         static void Main(string[] args)
         {
             Q_045_CaesarCode res = new();
-            var answer = res.solution("z",1);
+            var answer = res.solution("z", 1);
 
             Console.WriteLine(answer);
             //foreach ( var i in answer )
@@ -23,3 +24,4 @@ namespace AlgorithmCodeKata
         }
     }
 }
+

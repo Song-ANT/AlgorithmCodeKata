@@ -6,6 +6,8 @@ using System.Xml.Linq;
 using System.Drawing;
 using System.Reflection;
 using System.Threading;
+using Microsoft.VisualBasic;
+using System.Linq;
 
 namespace AlgorithmCodeKata
 {

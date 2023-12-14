@@ -8,6 +8,7 @@ using System.Reflection;
 using System.Threading;
 using Microsoft.VisualBasic;
 using System.Linq;
+using System.ComponentModel.Design;
 
 namespace AlgorithmCodeKata
 {
@@ -15,15 +16,16 @@ namespace AlgorithmCodeKata
     {
         static void Main(string[] args)
         {
-            Q_045_CaesarCode res = new();
-            var answer = res.solution("z", 1);
+            Q_048_NumOfKth res = new();
+            var answer = res.solution(new int[] { 1, 5, 2, 6, 3, 7, 4}, new int[,] { {2,5,3 }, {4, 4, 1 }, {1, 7, 3 } });
 
-            Console.WriteLine(answer);
-            //foreach ( var i in answer )
-            //{
-            //    Console.WriteLine(i);
-            //}
+            //Console.WriteLine(answer);
+            foreach (var i in answer)
+            {
+                Console.WriteLine(i);
+            }
         }
     }
 }
+
 

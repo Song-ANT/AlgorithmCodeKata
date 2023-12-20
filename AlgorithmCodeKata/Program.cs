@@ -16,8 +16,8 @@ namespace AlgorithmCodeKata
     {
         static void Main(string[] args)
         {
-            Q_048_NumOfKth res = new();
-            var answer = res.solution(new int[] { 1, 5, 2, 6, 3, 7, 4}, new int[,] { {2,5,3 }, {4, 4, 1 }, {1, 7, 3 } });
+            Q_051_FoodFight res = new();
+            var answer = res.solution(new int[] { 1, 3, 4, 6 });
 
             //Console.WriteLine(answer);
             foreach (var i in answer)

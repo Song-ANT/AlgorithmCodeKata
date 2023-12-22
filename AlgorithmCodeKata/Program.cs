@@ -16,16 +16,19 @@ namespace AlgorithmCodeKata
     {
         static void Main(string[] args)
         {
-            Q_051_FoodFight res = new();
-            var answer = res.solution(new int[] { 1, 3, 4, 6 });
+            Q_052_Coke res = new();
+            var answer = res.solution(2, 1, 20);
 
-            //Console.WriteLine(answer);
-            foreach (var i in answer)
-            {
-                Console.WriteLine(i);
-            }
+            Console.WriteLine(answer);
+            //foreach (var i in answer)
+            //{
+            //    Console.WriteLine(i);
+            //}
         }
     }
 }
+
+
+
 
 

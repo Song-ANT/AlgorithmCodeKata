@@ -9,6 +9,7 @@ using System.Threading;
 using Microsoft.VisualBasic;
 using System.Linq;
 using System.ComponentModel.Design;
+using static System.Formats.Asn1.AsnWriter;
 
 namespace AlgorithmCodeKata
 {
@@ -16,14 +17,14 @@ namespace AlgorithmCodeKata
     {
         static void Main(string[] args)
         {
-            Q_052_Coke res = new();
-            var answer = res.solution(2, 1, 20);
+            Q_053_HallOfFame res = new();
+            var answer = res.solution(3, new int[] { 10, 100, 20, 150, 1, 100, 200 });
 
-            Console.WriteLine(answer);
-            //foreach (var i in answer)
-            //{
-            //    Console.WriteLine(i);
-            //}
+            //Console.WriteLine(answer);
+            foreach (var i in answer)
+            {
+                Console.WriteLine(i);
+            }
         }
     }
 }

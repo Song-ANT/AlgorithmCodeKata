@@ -17,17 +17,20 @@ namespace AlgorithmCodeKata
     {
         static void Main(string[] args)
         {
-            Q_053_HallOfFame res = new();
-            var answer = res.solution(3, new int[] { 10, 100, 20, 150, 1, 100, 200 });
+            Q_055_Cards res = new();
+            var answer = res.solution(new string[] { "i", "drink", "water" }, new string[] { "want", "to" }, new string[] { "i", "want", "to", "drink", "water" });
 
-            //Console.WriteLine(answer);
-            foreach (var i in answer)
-            {
-                Console.WriteLine(i);
-            }
+            Console.WriteLine(answer);
+            //foreach (var i in answer)
+            //{
+            //    Console.WriteLine(i);
+            //}
         }
     }
 }
+
+
+
 
 
 

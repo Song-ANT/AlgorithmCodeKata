@@ -25,7 +25,6 @@
     {
         string answer = "";
         bool upper = true;
-        bool first = false;
 
         foreach (var item in s)
         {

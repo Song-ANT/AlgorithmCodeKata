@@ -28,12 +28,3 @@ namespace AlgorithmCodeKata
         }
     }
 }
-
-
-
-
-
-
-
-
-

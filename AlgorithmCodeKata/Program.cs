@@ -17,14 +17,14 @@ namespace AlgorithmCodeKata
     {
         static void Main(string[] args)
         {
-            Q_055_Cards res = new();
-            var answer = res.solution(new string[] { "i", "drink", "water" }, new string[] { "want", "to" }, new string[] { "i", "want", "to", "drink", "water" });
+            Q_057_MockTest res = new();
+            var answer = res.solution(new int[] {1, 2, 3, 4, 5});
 
-            Console.WriteLine(answer);
-            //foreach (var i in answer)
-            //{
-            //    Console.WriteLine(i);
-            //}
+            //Console.WriteLine(answer);
+            foreach (var i in answer)
+            {
+                Console.WriteLine(i);
+            }
         }
     }
 }

@@ -12,6 +12,7 @@ using System.ComponentModel.Design;
 using static System.Formats.Asn1.AsnWriter;
 using static System.Collections.Specialized.BitVector32;
 using System.Security.Cryptography.X509Certificates;
+using System.Collections.Generic;
 
 namespace AlgorithmCodeKata
 {

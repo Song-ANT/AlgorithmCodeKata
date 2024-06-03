@@ -1,19 +1,4 @@
-﻿using System;
-using System.Diagnostics.Metrics;
-using System.Diagnostics;
-using System.Runtime.InteropServices;
-using System.Xml.Linq;
-using System.Drawing;
-using System.Reflection;
-using System.Threading;
-using Microsoft.VisualBasic;
-using System.Linq;
-using System.ComponentModel.Design;
-using static System.Formats.Asn1.AsnWriter;
-using static System.Collections.Specialized.BitVector32;
-using System.Security.Cryptography.X509Certificates;
-using System.Collections.Generic;
-
+﻿
 namespace AlgorithmCodeKata
 {
     public class Program
@@ -31,5 +16,8 @@ namespace AlgorithmCodeKata
         }
     }
 }
+
+
+
 
 
